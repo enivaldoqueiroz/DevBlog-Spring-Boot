@@ -1,5 +1,5 @@
-<html>
-
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org">
 <head>
 
 	<title>MyDevBlog</title>
@@ -26,11 +26,25 @@
 				<ol class="breadcrumb" style="background-color: white;" padding-left: 0px>
 				  <li class="breadcrumb-item active" aria-current="page">Posts</li>
 				</ol>
-			 </nav>
+			</nav>
 		
-			<div class="card shadow-sm bg-white rounded" style="margin-top: 30px;">
+			<div class="card shadow-sm bg-white rounded" style="margin-top: 20px;" th:each="post : ${posts}">
 				  <div class="card-body">
-				    	teste
+						<p class="card-subtitle mb-2 text-muted" style="font-size: 0.8rem;">
+							<span th:text="${post.autor}"></span>
+							<span th:text="${post.data}"></span>
+
+						</p>	
+
+						<a href="#">	
+							<h4 class="card-title" style="font-weight: bold; color: black; padding-top: 5px;">
+							<span th:text="${post.titulo}"></span>
+							</h4>  
+						</a>
+
+						<p class="card-text"><span th:utext="${#strings.abbreviate(post.text,400)}"></span></p>
+					
+					
 				  </div>
 			</div>
 			
