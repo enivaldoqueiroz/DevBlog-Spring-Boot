@@ -36,7 +36,10 @@
 
 						</p>	
 
-						<a href="#">	
+						<!--<a th:href="@{'/api/posts/' + ${post.id}}" >--> 	
+						<!--DC é a cigla da classe DevblogController -->
+						<a th:href="${(#mvc.url('DC#getPostDetails').arg(0, post.id)).build()}">
+						 
 							<h4 class="card-title" style="font-weight: bold; color: black; padding-top: 5px;">
 							<span th:text="${post.titulo}"></span>
 							</h4>  
