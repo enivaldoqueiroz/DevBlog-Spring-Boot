@@ -1,7 +1,11 @@
 # Dev Blog em Java com Spring Boot utilizando o padrão MVC
-Projeto Dev Blog em Java, Spring Boot com Thymeleaf, Bootstrap, PostgreSQL e Spring Security.
+## Projeto Dev Blog em Java, Spring Boot com Thymeleaf, Bootstrap, PostgreSQL e Spring Security.
+
+### Criação do banco de dados devblog.
 
 ![](https://github.com/enivaldoqueiroz/DevBlog-Spring-Boot/blob/master/imagens/IMAGEM_001.png)
+
+### Criação das tabelas hibernete_sequence e tb_post, apos implementação do da classe DevblogService.
 
 ![](https://github.com/enivaldoqueiroz/DevBlog-Spring-Boot/blob/master/imagens/IMAGEM_002.png)
 
