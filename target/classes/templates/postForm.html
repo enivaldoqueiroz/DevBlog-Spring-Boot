@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org">
+<head>
+
+	<title>MyDevBlog</title>
+	<!--CSS-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+	<header>
+		<!-- Navbar -->
+		<nav class="navbar navbar-light bg-light">
+            <span class="navbar-brand mb-0 h1" style="font-weight: bold;">MyDevBlog</span>
+		</nav>
+	
+	</header>
+
+	<section>
+	
+		<div class="container" style="width: 60%; padding-bottom: 30px;">
+
+			<nav aria-label="breadcrumb">
+				<ol class="breadcrumb" style="background-color: white;" padding-left: 0px>
+                  <li class="breadcrumb-item" aria-current="page"><a href="/posts">Posts</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Novo Posts</li>
+				</ol>
+            </nav>
+            
+            <div>
+                <!--<th:block th:include="mensagemValidacao"></th:block>-->
+                <form method="post">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="titulo" placeholder="Título *">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="autor" placeholder="Autor *">
+                    </div>
+    
+                    <textarea id="summernote" type="text" class="form-control" name="texto" placeholder="Texto *"></textarea>
+    
+                    <small class="form-text text-muted">(*) Campos obrigatórios</small>
+    
+                    <button type="submit" class="btn btn-primary" style="margin-top: 10px;">Publicar</button>
+                    <a href="/posts" class="btn btn-light" role="button" style="margin-top: 10px; color: red;">Cancelar</a>
+                    <!--<button type="submit" class="btn" style="margin-top: 10px;">Cancelar</button>-->
+                </form>
+            </div>
+					
+			
+		
+		<div>
+	
+	</section>
+
+</body>
+
+</html>
+
