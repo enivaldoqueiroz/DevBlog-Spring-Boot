@@ -25,7 +25,7 @@
 
 ![](https://github.com/enivaldoqueiroz/DevBlog-Spring-Boot/blob/master/imagens/IMAGEM_007.png)
 
-### Realizando a inserção via site do novo poste atraves da página Novo Poste.
+### Realizando a inserção do novo poste via página Novo Poste.
 
 ![](https://github.com/enivaldoqueiroz/DevBlog-Spring-Boot/blob/master/imagens/IMAGEM_008.png)
 
@@ -33,13 +33,13 @@
 
 ![](https://github.com/enivaldoqueiroz/DevBlog-Spring-Boot/blob/master/imagens/IMAGEM_009.png)
 
-### .
+### Valindando a inserção de um novo poste sem título apos implementação da execeção de dados nulos.
 
 ![](https://github.com/enivaldoqueiroz/DevBlog-Spring-Boot/blob/master/imagens/IMAGEM_010.png)
 
-### .
-
 ![](https://github.com/enivaldoqueiroz/DevBlog-Spring-Boot/blob/master/imagens/IMAGEM_011.png)
+
+### Implementação do Editor de texto SummerNote
 
 ![](https://github.com/enivaldoqueiroz/DevBlog-Spring-Boot/blob/master/imagens/IMAGEM_012.png)
 
